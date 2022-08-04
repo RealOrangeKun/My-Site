@@ -1,9 +1,15 @@
 body {
-  background-image: url("Background.jpg");
+  /*background-image: url("Background.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
+}
+
+#myface {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .topline {
@@ -12,33 +18,8 @@ body {
     background-color: black;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  background-color: white;
-}
-
-.card:hover {
-    box-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-}
-
 .title {
     color: grey;
-    font-size: 18px;
-  }
-  
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
     font-size: 18px;
   }
   
@@ -48,10 +29,6 @@ button {
     color: black;
   }
   
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
-
 .outlinetext {
   text-shadow: 0px 1px 0px #ffffff,
   0px 14px 10px rgba(0,0,0,0.15);
@@ -77,9 +54,4 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 strong:hover {
 color: red;
-}
-
-#myname {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: -1px -1px 0 rgb(114, 112, 112), 1px -1px 0 rgb(138, 135, 135), -1px 1px 0 rgb(143, 141, 141), 1px 1px 0 rgb(129, 126, 126);
 }
